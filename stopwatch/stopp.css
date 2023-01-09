@@ -1,0 +1,42 @@
+body{
+    background: #edeaff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.stopwatch{
+    width: 90%;
+    max-width: 800px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+    url(imgg/background.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    border-radius: 2rem;
+}
+.stopwatch h1{
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img{
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.buttons img:hover{
+    transform: scale(1.4);
+}
+.buttons img:nth-child(2){
+    width: 90px;
+}
